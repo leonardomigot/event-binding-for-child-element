@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'concept';
+
+  nome = '';
+
+  onNameChange(nome: string){
+    this.nome = nome;
+  }
 }
